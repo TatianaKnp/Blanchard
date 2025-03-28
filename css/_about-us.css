@@ -1,0 +1,27 @@
+.about-us {
+  padding-top: var(--container-padding);
+  padding-bottom: 71px;
+}
+
+.about-us__title {
+  margin-bottom: 16px;
+}
+
+.about-us__text {
+  max-width: 1080px;
+}
+
+@media (max-width: 660px) {
+  .about-us {
+    padding-top: 50px;
+    padding-bottom: 41px;
+  }
+
+  .about-us__title {
+    margin-bottom: 12px;
+  }
+
+  .about-us__text {
+    font-size: 14px;
+  }
+}

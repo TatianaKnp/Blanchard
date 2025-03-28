@@ -1,0 +1,33 @@
+:root {
+  /* шрифты */
+  --regular: 400;
+  --semi-bold: 600;
+  --bold: 700;
+
+  --font-family: "Open Sans", sans-serif;
+
+  --default-fs: 16px;
+  --default-lh: 200%;
+
+  /* цвета */
+  --white: #fff;
+  --black: #000;
+  --bright-black: #333;
+  --gray: #999;
+  --light-gray: #cacaca;
+  --light: #ececec;
+  --purple: #9d5cd0;
+  --purple-hover: #c283f3;
+  --purple-dark: #7943a4;
+  --purple-light: #d1a9f0;
+
+  /* sizes */
+  --container-max-width: 1600px;
+  --body-min-width: 320px;
+  --container-padding: 80px;
+  --container-padding-lr: 50px;
+
+  /* блоки */
+
+  /* transitions */
+}

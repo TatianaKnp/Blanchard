@@ -1,0 +1,124 @@
+.hero {
+  padding: 146px 0;
+  background-color: var(--gray);
+  background-image: url(../img/bg-hero-1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.hero__container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.hero__content {
+  max-width: 560px;
+}
+
+.hero__title {
+  margin-bottom: 20px;
+  font-weight: var(--bold);
+  font-size: 72px;
+  line-height: 95%;
+  color: var(--white);
+}
+
+.hero__descr {
+  margin-bottom: 92px;
+  font-weight: var(--bold);
+  font-size: 18px;
+  line-height: 167%;
+  color: var(--white);
+}
+
+.hero__btn {
+  transition: outline 0.1s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.hero__btn:focus-visible {
+  outline-offset: 4px;
+  outline: 2px solid var(--purple-hover);
+}
+
+.hero__btn:active:not(:focus-visible) {
+  background-color: var(--purple-dark);
+}
+
+@media (any-hover: hover) {
+  .hero__btn:hover:not(:focus-visible) {
+    outline: 3px solid var(--purple-light);
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero {
+    padding: 100px 0;
+    background-image: url(../img/bg-hero-1024.jpg);
+  }
+
+  .hero__content {
+    max-width: 670px;
+  }
+
+  .hero__descr {
+    margin-bottom: 133px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 87px 0;
+    background-image: url(../img/bg-hero-768.jpg);
+  }
+
+  .hero__content {
+    max-width: 560px;
+  }
+
+  .hero__descr {
+    margin-bottom: 132px;
+    line-height: 165%;
+  }
+}
+
+@media (max-width: 660px) {
+  .hero {
+    padding: 50px 0;
+    background-image: url(../img/bg-hero-320.jpg);
+  }
+
+  .hero__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;
+  }
+
+  .hero__title {
+    margin-bottom: 11px;
+    font-size: 32px;
+    line-height: 87%;
+    text-align: center;
+  }
+
+  .hero__descr {
+    margin-bottom: 39px;
+    font-weight: var(--regular);
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__content {
+    max-width: 265px;
+  }
+}
